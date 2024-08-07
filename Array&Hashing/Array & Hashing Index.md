@@ -3,4 +3,4 @@ tags:
   - arrayhashing
 ---
 1. [[Group Anagrams]]
-2. [[RemovePrefix]]
+2. [[PolyCarp]]

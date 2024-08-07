@@ -7,9 +7,11 @@ Difficulty:
   - "800"
 Solved: true
 ---
+--- 
+Difficulty: "800" 
+Category: ["Array", "Hashing"]
 
-- **Difficulty:** #800rating
-- **Category:** #Array #HashTable #Greedy
+---
 
 ## Problem Statement
 
@@ -92,9 +94,8 @@ if __name__ == "__main__":
 
 ## Pseudocode
 Provide the pseudocode for the solution here.
-
 ## Implementation
-### Language: Python/Java/C++/Other
+### Language: Python
 ```python
 from collections import defaultdict, deque  
 if __name__ == "__main__":
@@ -120,15 +121,15 @@ if __name__ == "__main__":
 ```
 
 ## Explanation
-Explain how your code works here. Discuss any edge cases and how your code handles them.
+
+The problem with the brute force was that it was making the time complexity as $O(n^2)$ cause of `len(set(nums))` and `nums.pop(0)`. Optimization of the code would have required to replace these checks n' actions. 
+Rather than using basic array as dict (which was being used in the brute force) a proper [[dequeue]] was imported, also in order to remove the length comparison [[frequency map]] was added. So now what happens is that for each new element we increase the window size. If frequency count of new element is more than 1 we run a while loop. In this loop we remove the leftmost element and then decrease the count and if the freq of that element reaches 0 we just delete it 💪. 
 
 ## Additional Notes
 Add any additional notes or comments here.
 
 ## References
 - [Codeforces.com](https://codeforces.com/contest/1714/problem/B)
-
----
 
 ## Metadata
 ```dataview
@@ -138,4 +139,4 @@ table
 where contains(file.name, "DSA Question")
 ```
 
-**Tags:** #DSA #DataStructures #Algorithms #TechPlacements
+**Tags:** #DSA #DataStructures #Algorithms #TechPlacements 
