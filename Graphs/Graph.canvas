@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"6962b369a89eb40a","type":"text","text":"question\n","x":-600,"y":-80,"width":250,"height":60},
+		{"id":"cca5aa87fb85c64d","type":"file","file":"Graphs/Breadth First Search.md","x":-220,"y":-500,"width":400,"height":400},
+		{"id":"1368f24558ec4118","type":"file","file":"Graphs/Depth First Search.md","x":-220,"y":-20,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"495e30e199d759b6","fromNode":"6962b369a89eb40a","fromSide":"right","toNode":"cca5aa87fb85c64d","toSide":"left"},
+		{"id":"5fab122be36adfe9","fromNode":"6962b369a89eb40a","fromSide":"right","toNode":"1368f24558ec4118","toSide":"left"}
+	]
+}

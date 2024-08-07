@@ -5,6 +5,7 @@ tags:
 Date: 2024-08-08T02:07
 Difficulty:
   - "1000"
+Solved: false
 ---
 - **Difficulty:** #1000rating
 - **Category:** #implementation 

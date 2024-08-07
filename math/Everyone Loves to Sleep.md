@@ -5,6 +5,7 @@ tags:
 Date: 2024-08-07T23:59
 Difficulty:
   - "900"
+Solved: false
 ---
 
 - **Difficulty:** #900rating
