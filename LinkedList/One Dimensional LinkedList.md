@@ -1,6 +1,8 @@
 ---
 tags:
   - LinkedList
+solved: false
+date: 2024-08-11T01:46
 ---
 
 ## Description
