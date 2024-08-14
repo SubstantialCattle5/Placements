@@ -72,4 +72,4 @@ where contains(file.name, "Data Structure")
 sort file.ctime desc
 ```
 
-**Tags:** #DataStructure #TechPlacements #DSA
+**Tags:**  #TechPlacements #DSA

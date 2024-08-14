@@ -72,4 +72,4 @@ table
 where contains(file.name, "DSA Question")
 ```
 
-**Tags:** #DSA #DataStructures #Algorithms #TechPlacements
+**Tags:** #DSA  #Algorithms #TechPlacements

@@ -1,6 +1,5 @@
 
-## **Date:** {{date}}
-
+# Daily Todo
 ## Morning
 ### Goals
 - [ ] Task 1
@@ -28,18 +27,6 @@
 ### Notes
 - [Add any notes related to evening tasks]
 
-## Priorities
-### High Priority
-- [ ] Task A
-- [ ] Task B
-
-### Medium Priority
-- [ ] Task C
-- [ ] Task D
-
-### Low Priority
-- [ ] Task E
-- [ ] Task F
 
 ## Reflection
 - **Wins:** [List your wins for the day]
@@ -48,13 +35,7 @@
 
 ---
 
-## Timeline
-```timeline
-    title "Daily Tasks Timeline"
-    [ "Morning Goals" : [{{date}} 09:00, {{date}} 12:00, Task 1, Task 2, Task 3] ]
-    [ "Afternoon Goals" : [{{date}} 12:00, {{date}} 18:00, Task 4, Task 5, Task 6] ]
-    [ "Evening Goals" : [{{date}} 18:00, {{date}} 21:00, Task 7, Task 8, Task 9] ]
-```
+
 
 ## Metadata
 ```dataview

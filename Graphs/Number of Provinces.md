@@ -86,7 +86,7 @@ Therefore, the BFS function as a whole runs in \(O(n + n^2)\), which simplifies 
 Thus, the total time complexity of the `findCircleNum` function is \(O(n^2)\).
 #### Space Complexity:$O(n)$
 ### 2. Optimized
-- **Description:** disjoint union crack #Todo.
+- **Description:** disjoint union crack.
 - **Time Complexity:** 
 - **Space Complexity:** 
 
