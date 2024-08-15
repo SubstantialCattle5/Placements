@@ -1,5 +1,3 @@
-## Algorithm Name
-[Enter the algorithm name here]
 
 ## Description
 Provide a detailed description of the algorithm, its purpose, and where it is typically used.

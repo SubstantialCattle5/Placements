@@ -1,8 +1,4 @@
 
-## Question Title
-- **Difficulty:** Easy/Medium/Hard
-- **Category:** Array/String/Linked List/Tree/Graph/Sorting/Searching/DP/Other
-
 ## Problem Statement
 Describe the problem in detail here. Include any given input and expected output.
 
