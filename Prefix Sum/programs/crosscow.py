@@ -1,23 +1,27 @@
-number_of_crossroads, working_subarray, broken_signal= [int(i) for i in input().split()] 
-broken_signals_list = list() 
+# Input processing
+inputs = input().split()
+number_of_lights, min_lights_to_work, broken_lights = [int(input) for input in inputs]
 
-for i in range(broken_signal) :
-    broken_signals_list.append(int(input()))
+broken_lights_array = [0 for _ in range(number_of_lights)]
+for _ in range(broken_lights):
+    broken_light = int(input())
+    broken_lights_array[broken_light - 1] = 1  # Mark the broken lights
 
-broken_signals_list.sort() 
+# Initialize variables
+min_number_of_fixed_lights = float("inf")
+count = 0
+lights_to_work = 0
 
-min_fixes = float("inf")
-k_ptr = 0 
-l,r = 1,1
-fixes = 0 
-while l<=r :  
-    if r in broken_signals_list : 
-        fixes = fixes + 1 
-    if r ==  working_subarray : 
-        min_fixes = min(min_fixes,fixes)
-        l = r 
-        fixes = 0
-    r+=1 
-    
+# Sliding window to find the minimum number of repairs needed
+for idx, light in enumerate(broken_lights_array):
+    count += 1
+    if light == 1:
+        lights_to_work += 1
+    if count == min_lights_to_work:
+        min_number_of_fixed_lights = min(lights_to_work, min_number_of_fixed_lights)
+        count -= 1
+        if broken_lights_array[idx - min_lights_to_work + 1] == 1:
+            lights_to_work -= 1
 
-print(min_fixes)
+# Output the result
+print(min_number_of_fixed_lights)

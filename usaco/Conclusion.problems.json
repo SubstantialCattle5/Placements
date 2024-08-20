@@ -1,0 +1,30 @@
+{
+  "MODULE_ID": "plat-conclusion",
+  "problems": [
+    {
+      "uniqueId": "joi-19-cake-circle",
+      "name": "JOI Spring Camp 2019 Day 4 - Cake 3",
+      "url": "https://oj.uz/problem/view/JOI19_cake3",
+      "source": "JOI",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": [],
+      "solutionMetadata": {
+        "kind": "internal"
+      }
+    },
+    {
+      "uniqueId": "tlx-HerLost",
+      "name": "Her Lost",
+      "url": "https://tlx.toki.id/problems/troc-33/H",
+      "source": "TLX",
+      "difficulty": "Hard",
+      "isStarred": false,
+      "tags": ["Centroid Decomposition"],
+      "solutionMetadata": {
+        "kind": "autogen-label-from-site",
+        "site": "TLX"
+      }
+    }
+  ]
+}
