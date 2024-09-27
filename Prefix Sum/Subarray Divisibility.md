@@ -1,14 +1,14 @@
 ---
 tags:
-  - SlidingWindow
-solved: true
-Date: 2024-08-11T04:40
+  - usaco
+  - prefixsum
+  - cses
+Date: 2024-08-20T06:45
+Difficulty:
+  - easy
+Solved: true
 ---
 
-
-## Question Title
-- **Difficulty:** Easy/Medium/Hard
-- **Category:** Array/String/Linked List/Tree/Graph/Sorting/Searching/DP/Other
 
 ## Problem Statement
 Describe the problem in detail here. Include any given input and expected output.
@@ -70,4 +70,4 @@ table
 where contains(file.name, "DSA Question")
 ```
 
-**Tags:** #DSA #DataStructures #Algorithms
+**Tags:** #DSA #Algorithms #TechPlacements

@@ -60,4 +60,4 @@ where contains(file.name, "Algorithm")
 sort file.ctime desc
 ```
 
-**Tags:** #Algorithm #TechPlacements #DSA
+**Tags:** #Algorithm #DSA
