@@ -1,6 +1,5 @@
 ---
 tags:
-  - dbms
   - intro_db
 ---
 1. A **Database Management System (DBMS)** is software designed to interact with users, applications, and the database itself to efficiently store, manage, and retrieve data. 

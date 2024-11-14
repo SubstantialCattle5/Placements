@@ -1,7 +1,6 @@
 ---
 tags:
   - dbms
-  - TechPlacements
 ---
 1. What is DBMS? 
 	1. Set of applications or programs that enable users to create and maintain a database.

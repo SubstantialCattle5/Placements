@@ -1,6 +1,5 @@
 ---
 tags:
-  - dbms
   - intro_db
 ---
 Database systems have become integral to modern computing and are applied in various industries to manage, store, and analyze data. Their versatility allows them to be used in small-scale applications as well as in large-scale, mission-critical environments. Here’s a detailed overview of common applications of database systems across different domains:

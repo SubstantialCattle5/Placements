@@ -1,6 +1,5 @@
 ---
 tags:
-  - dbms
   - intro_db
 ---
 1. Data refers to raw, unprocessed facts that can be analyzed to make decisions. 
